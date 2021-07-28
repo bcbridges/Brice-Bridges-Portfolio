@@ -29,14 +29,30 @@ nav {
 }
 
 nav img {
+  width: 2vw;
+  height: auto;
+  object-fit: contain;
+}
+
+nav img[alt="Page Logo"] {
+  width: 5vw;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: static;
 }
 
 nav a {
   background-color: var(--blue);
   color: var(--darkvelvet);
+  width: 15vw;
+  font-size: 1.5vw;
+  margin: 2vh 0;
+  text-align: center;
+  text-decoration: none;
 }
 
-/* Header section about the About Me */
+/* Below section of rulesets is the styling for the header section, above the 'About Me' */
 
 header {
   display: inline-flex;
@@ -51,12 +67,20 @@ header {
 }
 
 header img {
+  width: 17vw;
 }
 
 header h1 {
+  display: inline;
+  width: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0;
+  font-size: 10vh;
+  line-height: 1;
 }
 
-/* About Me Section */
+/* Below section of rulesets is the styling for the 'About Me' section */
 
 #aboutme {
   display: flex;
@@ -73,6 +97,9 @@ header h1 {
   width: 13vw;
   height: 40vh;
   margin: 5vh 0 5vh 10vh;
+  object-fit: cover;
+  border-radius: 2%;
+  outline: 0.5vw solid var(--gloomyday);
 }
 
 #aboutme div {
@@ -80,15 +107,16 @@ header h1 {
   height: 40vh;
   margin: 5vh 0;
   background-color: var(--lightsnow);
+  padding: 0 2vw;
+  border-radius: 2%;
 }
 
-#aboutme h3 {
-}
-
+#aboutme h3,
 #aboutme p {
+  font-size: 1.25vw;
 }
 
-/* Project Section */
+/* Below set of rulesets are for the project section. This section is made up of 3 nested flexboxes to aide in element spacing. The heiherarcy of the box classes/ids, beginning with largest, is main(element), projectsection(class), projectlist(class). */
 
 main {
   display: inline-flex;
@@ -110,10 +138,31 @@ main {
   align-items: center;
   width: 75vw;
   height: 20vh;
+  padding: 2% 0;
+}
+
+.projectsection h3,
+.projectsection p {
+  width: 30vw;
+  border: 1% solid var(--darkvelvet);
+  border-radius: 5px;
+  text-align: center;
 }
 
 .projectsection h3 {
   color: var(--white);
+  height: 3vh;
+  padding: 15% 10%;
+  font-size: 1.5vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: contain;
+}
+
+.projectsection p {
+  font-size: 1vw;
+  height: 2vh;
+  padding: 1vh 0;
 }
 
 #proj-group1 {
@@ -121,7 +170,7 @@ main {
 }
 
 #proj-group2 {
-  color: darkslategrey;
+  color: var(--darkvelvet);
   background-image: url(https://images.unsplash.com/photo-1543966888-7c1dc482a810?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8amF2YXNjcmlwdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
   object-position: center;
 }
@@ -139,6 +188,9 @@ main {
 .projectlist p {
   background-color: var(--darkvelvet);
   color: var(--gloomyday);
+}
+
+.projectlist a {
 }
 
 /* Contact Me Section */
@@ -166,6 +218,19 @@ main {
 #contactinfo div a,
 #contactinfo h3 {
   color: var(--darkvelvet);
+  text-decoration: none;
+  font-size: 1.25vw;
+}
+
+#contactinfo img {
+  width: 1.75vw;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  top: 0.5vh;
 }
 
 /* Add Media Queries beneath here */
+
+@media screen and (max-width: 1024px) {
+}
