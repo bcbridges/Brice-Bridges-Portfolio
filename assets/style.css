@@ -6,3 +6,109 @@
   --gloomyday: rgb(196, 196, 196);
   --darkvelvet: rgb(63, 28, 28);
 }
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  letter-spacing: 0.1em;
+}
+
+/* Sidebar Navigation */
+
+nav {
+  display: inline-flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 100vh;
+  position: fixed;
+}
+
+header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 84vw;
+  height: 40vh;
+  position: absolute;
+  top: 0;
+  left: 15vw;
+}
+
+/* About Me Section */
+
+#aboutme {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 84vw;
+  position: absolute;
+  top: 40vh;
+  left: 15vw;
+}
+
+#aboutme img {
+  width: 13vw;
+  height: 40vh;
+  margin: 5vh 0 5vh 10vh;
+}
+
+#aboutme div {
+  width: 30vw;
+  height: 40vh;
+  margin: 5vh 0;
+}
+
+/* Project Section */
+
+main {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: auto;
+  width: 84vw;
+  height: 90vh;
+  position: absolute;
+  top: 90vh;
+  left: 15vw;
+}
+
+.projectsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75vw;
+  height: 20vh;
+}
+
+.projectlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Contact Me Section */
+
+#contactinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 84vw;
+  height: 20vh;
+  position: absolute;
+  top: 180vh;
+  left: 15vw;
+}
+
+#contactinfo div {
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  height: 5vw;
+}
+
+/* Add Media Queries beneath here */
