@@ -142,7 +142,8 @@ main {
 }
 
 .projectsection h3,
-.projectsection p {
+/* .projectsection p, */
+.projectsection a {
   width: 30vw;
   border: 1% solid var(--darkvelvet);
   border-radius: 5px;
@@ -159,7 +160,8 @@ main {
   object-fit: contain;
 }
 
-.projectsection p {
+/* .projectsection p, */
+.projectsection a {
   font-size: 1vw;
   height: 2vh;
   padding: 1vh 0;
@@ -185,12 +187,21 @@ main {
   justify-content: space-between;
 }
 
-.projectlist p {
+/* .projectlist p, */
+.projectlist a {
   background-color: var(--darkvelvet);
   color: var(--gloomyday);
+  font-size: 1vw;
+  height: 2vh;
+  padding: 1vh 0;
 }
 
 .projectlist a {
+  display: block;
+  background-color: var(--darkvelvet);
+  color: var(--gloomyday);
+  text-decoration: none;
+  margin: 2vh 0;
 }
 
 /* Contact Me Section */
