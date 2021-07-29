@@ -25,7 +25,7 @@ There is no required software installation necessary to access the code or GitHu
 
 ### Image 2
 
-![Deployments](./assets/images/GitHubScreenshot2.png)
+![Deployments](./assets/images/GitHubScreenshot2.PNG)
 
 The index.html can be accessed [here](index.html), & the style.css can be accessed [here](./assets/style.css).
 
