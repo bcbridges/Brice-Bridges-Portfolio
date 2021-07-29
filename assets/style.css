@@ -68,6 +68,7 @@ header {
 
 header img {
   width: 17vw;
+  height: auto;
 }
 
 header h1 {
@@ -94,7 +95,7 @@ header h1 {
 }
 
 #aboutme img {
-  width: 13vw;
+  width: 17vw;
   height: 40vh;
   margin: 5vh 0 5vh 10vh;
   object-fit: cover;
@@ -244,4 +245,66 @@ main {
 /* Add Media Queries beneath here */
 
 @media screen and (max-width: 1024px) {
+  nav a[href="mailto:bcb35b@gmail.com"],
+  nav a[href="https://www.linkedin.com/in/brice-bridges/"],
+  nav a[href="https://github.com/bcbridges"]
+  {
+    display: none;
+  }
+
+  nav {
+    width: 100vw;
+    height: 15vh;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+  }
+
+  nav a {
+    font-size: 2vw;
+  }
+
+  nav img[alt="Page Logo"] {
+    width: 7vw;
+    height: auto;
+  }
+
+  header,
+  #aboutme,
+  #mywork,
+  #contactinfo {
+    left: 0;
+    width: 100vw;
+  }
+
+  header {
+    top: 15vh;
+  }
+
+  #aboutme {
+    top: 55vh;
+  }
+
+  #aboutme img {
+    width: 30vh;
+  }
+
+  #mywork {
+    top: 105vh;
+    height: 80vh;
+  }
+
+  #mywork h3 {
+    height: 10vh;
+  }
+
+  .projectsection {
+    justify-content: space-between;
+  }
+
+  #contactinfo {
+    top: 185vh;
+  }
 }
