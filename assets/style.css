@@ -229,11 +229,16 @@ main {
   height: 5vw;
 }
 
+#contactinfo div p,
 #contactinfo div a,
 #contactinfo h3 {
   color: var(--darkvelvet);
   text-decoration: none;
   font-size: 1.25vw;
+  display: block;
+}
+#contactinfo div a {
+  margin-top: 2vh;
 }
 
 #contactinfo img {
