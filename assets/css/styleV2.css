@@ -1,0 +1,85 @@
+* {
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  background-color: #080b45;
+}
+
+/*  Rulesets for the 'solar system' seciton on the right side of the page*/
+
+.vl {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  background-color: white;
+  height: 100vh;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 2px solid #c4cbde;
+  position: absolute;
+}
+
+.mercury {
+  width: 30px;
+  height: 30px;
+}
+
+.venus {
+  width: 60px;
+  height: 60px;
+}
+
+.earth {
+  width: 65px;
+  height: 65px;
+}
+
+.mars {
+  width: 35px;
+  height: 35px;
+}
+
+.jupiter {
+  width: 250px;
+  height: 250px;
+}
+
+.saturn {
+  width: 180px;
+  height: 180px;
+}
+
+.uranus {
+  width: 90px;
+  height: 90px;
+}
+
+.neptune {
+  width: 85px;
+  height: 85px;
+}
+
+/* Rulesets for nav links at the top of the page. */
+nav a {
+  text-decoration: none;
+  color: #757d90;
+  font-size: 36px;
+  margin: 2vh 2vw;
+}
+
+/* Beneath rulesets are for the 'Hi I'm Brice...' section */
+.introduction {
+  color: #757d90;
+  font-size: 72px;
+}
+
+.introduction span {
+  color: #c4cbde;
+}
+
+.introduction h3 {
+  font-size: 48px;
+}
